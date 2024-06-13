@@ -1,5 +1,6 @@
 System Specification for Pack Calculator Application
 1. Overview
+   
 The Pack Calculator application is designed to determine the optimal set of packaging sizes for a given number of items. It consists of a backend service implemented in Golang and a frontend UI implemented in Vue.js. The backend provides an API for calculating packaging, while the frontend offers a user interface for interacting with the API.
 
 2. Requirements
