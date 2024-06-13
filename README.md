@@ -75,6 +75,7 @@ Invoke the pack calculator service.
 Return the calculated packaging as a JSON response.
 
 5.2 Frontend
+
 main.js:
 Responsibilities:
 Initialize the Vue.js application.
