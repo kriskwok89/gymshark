@@ -6,12 +6,14 @@ The Pack Calculator application is designed to determine the optimal set of pack
 2. Requirements
    
 2.1 Functional Requirements
+
 User Input: The system shall allow users to input the number of items they need to package.
 Packaging Calculation: The system shall calculate the optimal set of packaging sizes for the given number of items.
 API Endpoint: The system shall provide an API endpoint to accept item count and return the packaging calculation.
 Frontend Interface: The system shall provide a web interface for users to input item count and view the packaging results.
 
 2.2 Non-Functional Requirements
+
 Performance: The system shall respond to user input within 2 seconds.
 Scalability: The system shall be able to handle multiple concurrent users.
 Usability: The user interface shall be intuitive and easy to use.
@@ -22,6 +24,7 @@ UI Page: http://18.135.104.26:8080
 
 
 3. Architecture
+   
 The application follows a client-server architecture:
 Client: The frontend is implemented using Vue.js and provides the user interface.
 Server: The backend is implemented using Golang and handles the packaging calculations and serves the API.
