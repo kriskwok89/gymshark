@@ -128,6 +128,7 @@ The Vue.js application receives the API response.
 The calculated packaging is displayed to the user.
 
 7. Deployment
+   
 The application can be deployed using Docker and AWS ECS (Elastic Container Service). The Docker container includes both the Golang backend and the built Vue.js frontend.
 
 7.1 Deployment URLs
@@ -137,7 +138,7 @@ API Endpoint: http://18.135.104.26:8080/api/packs?items=
 UI Page: http://18.135.104.26:8080
 
 8. Logging
-Both the backend and frontend include logging for monitoring and debugging purposes:
+
 Backend Logs: Logged using the log package in Golang.
 Incoming requests.
 API request details.
@@ -147,22 +148,33 @@ API request details.
 API responses.
 
 9. Testing
+    
 9.1 Unit Tests
+
 Backend:
+
 Configuration loader tests (config_test.go).
+
 Pack calculator service tests (packcalculator_test.go).
+
 Pack handler tests (packhandler_test.go).
+
 9.2 Integration Tests
+
 End-to-End Tests: Ensure the entire system works together from user input to API response.
 
-10. Error Handling
+11. Error Handling
+
 Invalid Input: Return an appropriate error message and status code.
+
 Server Errors: Log errors and return a generic error message to the client.
 
-11. Security
+12. Security
+    
 Input Validation: Ensure all inputs are validated to prevent injection attacks.
 
 Conclusion
+
 This system specification outlines the requirements, architecture, components, detailed design, data flow, deployment, logging, testing, error handling, and security considerations for the Pack Calculator application. By following this specification, the application can be developed and maintained effectively, ensuring it meets the functional and non-functional requirements. The application is accessible via the following URLs:
 
 API Endpoint: http://18.135.104.26:8080/api/packs?items=
