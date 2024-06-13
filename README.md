@@ -43,6 +43,7 @@ Server: The backend is implemented using Golang and handles the packaging calcul
 4. System Components
    
 4.1 Backend (Golang)
+
 Main Application (main.go): Initializes the server, handles routing, and serves static files.
 
 Configuration (config.go): Loads and parses configuration settings.
